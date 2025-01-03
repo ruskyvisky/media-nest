@@ -1,0 +1,14 @@
+
+language: java  # Project Language
+
+jdk:
+  - openjdk21 # JDK Version
+
+before_install:
+  - chmod +x mvnw # Grant permission to mvnw file
+install: # Install Dependencies
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+script: # Maven scripts
+  - mvn clean install
+
