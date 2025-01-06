@@ -13,7 +13,7 @@ public class DemoController {
     }
 
     @GetMapping("/test")
-    public String test() {
-        return "tesssssss
+    public String test(){
+        return "test";
     }
 }
