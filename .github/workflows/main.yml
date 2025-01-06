@@ -1,7 +1,7 @@
 name: Java CI/CD Workflow
 
 on:
-  pull_request: # Pull Request sırasında tetiklenir
+  push: # Pull Request sırasında tetiklenir
     branches:
       - master
       - dev-selcuk
